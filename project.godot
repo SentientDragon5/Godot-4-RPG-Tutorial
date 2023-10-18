@@ -12,12 +12,16 @@ config_version=5
 
 config/name="Top Down RPG Godot 4 YT Series"
 run/main_scene="res://Menus/Main_Menu.tscn"
-config/features=PackedStringArray("4.0", "GL Compatibility")
+config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 PlayerData="*res://Autoloads/PlayerData.gd"
+
+[dotnet]
+
+project/assembly_name="Top Down RPG Godot 4 YT Series"
 
 [input]
 

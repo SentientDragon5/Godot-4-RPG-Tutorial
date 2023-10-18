@@ -1,0 +1,51 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1697665507
+default_bus_layout.tres::AudioBusLayout::6544827032646331067::1697665413::0::1::::<><>::
+icon.svg::CompressedTexture2D::7934838740102881131::1697665413::1697665516::1::::<><>::
+README.md::TextFile::-1::1697665413::0::1::::<><>::
+World.tscn::PackedScene::5527698931751670383::1697665413::0::1::::<><>::uid://dlbxvt1oawb8v::::res://icon.svg<>uid://cdkrwn56sckey::::res://Player/Player.tscn<>uid://btda7wrqs3hhr::::res://Enemy/Skeleton.tscn<>uid://cbo7r7kfd54m::::res://Enemy/Boss/BossHealthBar.tscn<>uid://big3l13dnpmd0::::res://Enemy/Boss/Orc.tscn<>res://Player/PlayerHealthUI.tscn
+::res://Art/::1697665413
+Blue Orc.png::CompressedTexture2D::2848469529656971351::1697665413::1697665515::1::::<><>::
+Enemy 04-1.png::CompressedTexture2D::2829259641501849775::1697665413::1697665515::1::::<><>::
+Fireball.png::CompressedTexture2D::7471368779260466152::1697665413::1697665515::1::::<><>::
+Over-Bar.png::CompressedTexture2D::6764738859853631926::1697665413::1697665515::1::::<><>::
+playersprite.png::CompressedTexture2D::1663488379538460225::1697665413::1697665516::1::::<><>::
+playersprite_withmagic.png::CompressedTexture2D::937374144422063709::1697665413::1697665516::1::::<><>::
+Progress-Bar.png::CompressedTexture2D::1079471867005337935::1697665413::1697665516::1::::<><>::
+ThrowableKnife.png::CompressedTexture2D::6811288076862928449::1697665413::1697665516::1::::<><>::
+::res://Audio/::1697665413
+togglesound.ogg::AudioStreamOggVorbis::2654932819717741913::1697665413::1697665509::1::::<><>::
+Wind.ogg::AudioStreamOggVorbis::3500434802423800818::1697665413::1697665509::1::::<><>::
+::res://Autoloads/::1697665413
+PlayerData.gd::GDScript::-1::1697665413::0::1::::<>Node<>::
+::res://Enemy/::1697665413
+Enemy.gd::GDScript::-1::1697665413::0::1::::<>CharacterBody2D<>::
+Enemy.tscn::PackedScene::9200785390283984235::1697665413::0::1::::<><>::res://Enemy/Enemy.gd
+Skeleton.tscn::PackedScene::3726260174010360283::1697665413::0::1::::<><>::uid://d4c6udlvrac8r::::res://Enemy/Enemy.tscn<>uid://bgkrq03lq0pf8::::res://Art/Enemy 04-1.png
+::res://Enemy/Boss/::1697665413
+BossHealthBar.gd::GDScript::-1::1697665413::0::1::::<>CanvasLayer<>::
+BossHealthBar.tscn::PackedScene::143350191125694982::1697665413::0::1::::<><>::res://Enemy/Boss/BossHealthBar.gd
+BossTemplate.gd::GDScript::-1::1697665413::0::1::::<>CharacterBody2D<>::
+BossTemplate.tscn::PackedScene::4375058777077330797::1697665413::0::1::::<><>::res://Enemy/Bosses/BossTemplate.gd
+Orc.tscn::PackedScene::2962038827868043223::1697665413::0::1::::<><>::uid://b3lktxfj7bj78::::res://Enemy/Boss/BossTemplate.tscn<>uid://bgt2422ddc61h::::res://Art/Blue Orc.png<>res://Enemy/Boss/BossTemplate.gd<>res://Enemy/Boss/SpecialStates.gd
+SpecialStates.gd::GDScript::-1::1697665413::0::1::::<>Node<>::
+::res://Menus/::1697665413
+ClassMenu.gd::GDScript::-1::1697665413::0::1::::<>Control<>::
+ClassMenu.tscn::PackedScene::1384423214632337771::1697665413::0::1::::<><>::res://Menus/ClassMenu.gd
+Main_Menu.gd::GDScript::-1::1697665413::0::1::::<>Control<>::
+Main_Menu.tscn::PackedScene::2379640290169205638::1697665413::0::1::::<><>::res://Menus/Main_Menu.gd<>uid://ckh6jwn6otqxn::::res://Menus/PopupPanel.tscn
+PopupPanel.gd::GDScript::-1::1697665413::0::1::::<>PopupPanel<>::
+PopupPanel.tscn::PackedScene::5491079923989982323::1697665413::0::1::::<><>::res://Menus/PopupPanel.gd<>res://Menus/VideoSettings.gd<>res://Menus/SoundSettings.gd<>uid://bd3cmdeqgfy8p::::res://Audio/togglesound.ogg<>uid://bp4vwde2b3nsk::::res://Audio/Wind.ogg
+SoundSettings.gd::GDScript::-1::1697665413::0::1::::<>PanelContainer<>::
+VideoSettings.gd::GDScript::-1::1697665413::0::1::::<>PanelContainer<>::
+::res://Player/::1697665413
+Player.gd::GDScript::-1::1697665413::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::5005123882764161496::1697665413::0::1::::<><>::res://Player/Player.gd<>uid://nmcod8jp4u34::::res://Art/playersprite_withmagic.png
+PlayerHealthUI.gd::GDScript::-1::1697665413::0::1::::<>CanvasLayer<>::
+PlayerHealthUI.tscn::PackedScene::3611909325582805727::1697665413::0::1::::<><>::uid://c3m5i4l2rco3g::::res://Art/Over-Bar.png<>res://Player/PlayerHealthUI.gd<>uid://pm50j8xqk28r::::res://Art/Progress-Bar.png
+::res://Player/Projectiles/::1697665413
+Fireball.tres::Resource::7591124409769695306::1697665413::0::1::::<><>::uid://depgl8fn7o4iu::::res://Art/Fireball.png
+ProjBase.tres::Resource::9184396343206928718::1697665413::0::1::::<><>::
+Projectile.gd::GDScript::-1::1697665413::0::1::::<>Area2D<>::
+Projectile.tscn::PackedScene::3216223884233278298::1697665413::0::1::::<><>::res://Player/Projectiles/Projectile.gd
+ThrowingKnife.tres::Resource::4668506951514617774::1697665413::0::1::::<><>::uid://c4bo6i6n7t7cf::::res://Art/ThrowableKnife.png

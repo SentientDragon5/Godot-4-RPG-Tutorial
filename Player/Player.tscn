@@ -1,4 +1,4 @@
-[gd_scene load_steps=75 format=3 uid="uid://cdkrwn56sckey"]
+[gd_scene load_steps=74 format=3 uid="uid://cdkrwn56sckey"]
 
 [ext_resource type="Script" path="res://Player/Player.gd" id="1_paobi"]
 [ext_resource type="Texture2D" uid="uid://nmcod8jp4u34" path="res://Art/playersprite_withmagic.png" id="2_tkewy"]
@@ -1280,9 +1280,7 @@ states/Idle/position = Vector2(374, 100)
 states/Run/node = SubResource("AnimationNodeBlendSpace2D_phdjv")
 states/Run/position = Vector2(661, 100)
 transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_a8gfo"), "Idle", "Run", SubResource("AnimationNodeStateMachineTransition_ysy1d"), "Run", "Idle", SubResource("AnimationNodeStateMachineTransition_kp73u"), "Idle", "Attack1", SubResource("AnimationNodeStateMachineTransition_g527s"), "Attack1", "Idle", SubResource("AnimationNodeStateMachineTransition_kj2e3"), "Run", "Attack1", SubResource("AnimationNodeStateMachineTransition_qn862"), "Attack1", "Attack2", SubResource("AnimationNodeStateMachineTransition_py3fa"), "Attack2", "Attack3", SubResource("AnimationNodeStateMachineTransition_i75yw"), "Run", "Cast", SubResource("AnimationNodeStateMachineTransition_gjyfe"), "Idle", "Cast", SubResource("AnimationNodeStateMachineTransition_6civ8"), "Cast", "Idle", SubResource("AnimationNodeStateMachineTransition_sb8r4")]
-graph_offset = Vector2(-143.062, 12.4756)
-
-[sub_resource type="AnimationNodeStateMachinePlayback" id="AnimationNodeStateMachinePlayback_iyn6t"]
+graph_offset = Vector2(-143.062, 70.0285)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4fngx"]
 
@@ -1314,7 +1312,6 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 tree_root = SubResource("AnimationNodeStateMachine_5ytmy")
 anim_player = NodePath("../AnimationPlayer")
-parameters/playback = SubResource("AnimationNodeStateMachinePlayback_iyn6t")
 parameters/Attack1/blend_position = Vector2(-0.00160003, 0)
 parameters/Attack2/blend_position = Vector2(0, 0)
 parameters/Attack3/blend_position = Vector2(0, 0)
